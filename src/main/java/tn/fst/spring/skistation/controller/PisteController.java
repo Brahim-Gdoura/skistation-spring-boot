@@ -34,6 +34,7 @@ public class PisteController {
         return "Welcome to the SkyStation API";
     }
 
+    // Update Piste
     @PostMapping(value = "/addOrUpdatePiste")
     @ResponseBody
     Piste addOrUpdatePiste(@RequestBody Piste piste){
